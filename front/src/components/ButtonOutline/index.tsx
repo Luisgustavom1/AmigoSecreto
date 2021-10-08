@@ -1,14 +1,17 @@
-import React, { ReactNode } from 'react';
+import React, { ButtonHTMLAttributes, ReactNode } from 'react';
 
 import { ButtonOutlineStyle } from './styles';
 
-interface ButtonOutlineProps {
-  children: ReactNode
+interface ButtonOutlineProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+  children: ReactNode;
+  onClick: () => void;
 }
 
-const ButtonOutline = ({ children }: ButtonOutlineProps) => {
+const ButtonOutline = ({ children, onClick }: ButtonOutlineProps) => {
   return (
-    <ButtonOutlineStyle>
+    <ButtonOutlineStyle
+      onClick={onClick}
+    >
       {children}
     </ButtonOutlineStyle>
   );
