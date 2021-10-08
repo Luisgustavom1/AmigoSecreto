@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Amigo Secreto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse é um sistema de amigo secreto, basta cadastrar email e nome de cada participar e depois sortear os amigos secretos. Após o sorteio, cada pessoa recebe um email com o nome do participante que saiu, apartir dai só comprar o presente ideal!!
 
-## Available Scripts
+## 🚀 Começando
 
-In the project directory, you can run:
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### `yarn start`
+Consulte **Implantação** para saber como implantar o projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🔧 Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Vamos instalar esse sistema e rodar em sua máquina!
 
-### `yarn test`
+Antes você tem que saber que nesse repositório contém dois códigos, o Front-end e o Back-end da aplicação, mas vamos com calma que é super simples de rodar na sua máquina!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1°. Vamos clonar o repositório:
 
-### `yarn build`
+```
+git clone https://github.com/Luisgustavom1/AmigoSecreto.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2°. Instalando dependências e rodando o back end:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Na pasta principal do projeto rodar
+```
+cd ./back
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+yarn
 
-### `yarn eject`
+yarn dev
+```
+ou se preferir com o npm ----
+```
+cd ./back 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3°. Após esses comando o nosso Back-end ja está instalado, agora vamos fazer o mesmo para o Front:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Na pasta principal do projeto rodar
+```
+cd ./front
 
-## Learn More
+yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yarn start
+```
+ou se preferir com o npm ----
+```
+cd ./front 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
+
+npm start
+```
+
+Agora só desfrutar do projeto
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+
+* ReactJs📲
+* Styled-components💅
+* NodeJs📊
+* Express👨‍💻
+* MongoDb🎲
+* EtheralEmail🕹
+
+⌨️ com ❤️ por [Luis Gustavo](https://github.com/luisgustavom1) 😊
